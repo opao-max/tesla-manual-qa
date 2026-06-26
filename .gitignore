@@ -1,0 +1,30 @@
+# Runtime artifacts
+log/
+*.log
+nohup.out
+
+# Data (loaded at runtime, not committed)
+data/
+*.pkl
+*.db
+*.faiss
+
+# Models
+models/
+*.safetensors
+*.bin
+
+# MongoDB local data
+mongodb-*/
+data/mongodb/
+
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store
+__pycache__/
+*.pyc
+
+# Environment
+.env
+config.local.ini

@@ -1,0 +1,37 @@
+﻿# Core RAG / LLM dependencies
+fastapi>=0.110
+uvicorn>=0.29
+sse-starlette>=1.8
+pydantic>=2.6
+requests>=2.31
+httpx>=0.27
+
+# Document parsing
+pypdf>=4.0
+pdfplumber>=0.11
+Pillow>=10.0
+
+# Retrieval & embedding
+langchain>=0.2
+langchain-community>=0.2
+langchain-openai>=0.1
+faiss-cpu>=1.8
+pymilvus>=2.4
+sentence-transformers>=2.7
+FlagEmbedding>=1.2
+jieba>=0.42
+rank-bm25>=0.2.2
+
+# ML / LLM serving
+torch>=2.2
+transformers>=4.40
+accelerate>=0.30
+vllm>=0.5
+
+# Evaluation
+ragas>=0.1
+datasets>=2.19
+
+# Data
+pymongo>=4.6
+pandas>=2.2
