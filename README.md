@@ -113,3 +113,9 @@ Uses [RAGAS](https://docs.ragas.io/) metrics: LLM context recall and context pre
 ## License
 
 [MIT](LICENSE)
+
+## Notes
+
+- Indexes and raw manuals are loaded at runtime and are not committed to the repository.
+- The pipeline is designed to be backend-agnostic: swap the retriever and reranker via configuration for different latency/quality trade-offs.
+
