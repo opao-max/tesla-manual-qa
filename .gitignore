@@ -28,3 +28,9 @@ __pycache__/
 # Environment
 .env
 config.local.ini
+
+# Indexes & caches
+*.faiss
+*.index
+.cache/
+
