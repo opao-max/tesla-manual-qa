@@ -1,8 +1,8 @@
-﻿# Core RAG / LLM dependencies
+# Core RAG / LLM dependencies
 fastapi>=0.110
 uvicorn>=0.29
 sse-starlette>=1.8
-pydantic>=2.6
+pydantic>=2.13.5
 requests>=2.31
 httpx>=0.27
 
