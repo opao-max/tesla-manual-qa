@@ -1,4 +1,4 @@
-﻿# Core RAG / LLM dependencies
+# Core RAG / LLM dependencies
 fastapi>=0.110
 uvicorn>=0.29
 sse-starlette>=1.8
@@ -15,7 +15,7 @@ Pillow>=10.0
 langchain>=0.2
 langchain-community>=0.2
 langchain-openai>=0.1
-faiss-cpu>=1.8
+faiss-cpu>=1.15.0
 pymilvus>=2.4
 sentence-transformers>=2.7
 FlagEmbedding>=1.2
