@@ -1,5 +1,5 @@
-﻿# Core RAG / LLM dependencies
-fastapi>=0.110
+# Core RAG / LLM dependencies
+fastapi>=0.141.1
 uvicorn>=0.29
 sse-starlette>=1.8
 pydantic>=2.6
