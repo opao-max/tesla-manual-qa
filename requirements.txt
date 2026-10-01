@@ -30,7 +30,7 @@ vllm>=0.5
 
 # Evaluation
 ragas>=0.1
-datasets>=2.19
+datasets>=5.0.1
 
 # Data
 pymongo>=4.6
